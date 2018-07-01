@@ -1,0 +1,64 @@
+body {
+    background: #383a3d;
+}
+
+#banner {
+    height: 250px; 
+}
+
+.flex-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-flow: column wrap;
+    margin: 20px auto;
+}
+
+.flex-row {
+    -webkit-flex-flow: row wrap;
+    flex-flow: row wrap;
+}
+
+.button-styling {
+    font-family: 'Wendy One', sans-serif;
+    color: rgb(238, 238, 194);
+    font-size: 15px;
+    background: #675C72;
+    line-height: 100%;
+    padding: 6px;
+    margin: 6px;
+    border-radius: 5px;
+    border-width: 2px;
+    border: 1px solid #8f918b;
+}
+
+.button-styling:hover {
+    background: rgb(162, 118, 173);
+}
+
+.gif-card {
+    position: relative;
+    width: 245px;
+    height: 245px;
+    margin: 10px;
+    background: #968496;
+    border-radius: 5px;
+}
+
+.gif-card-footer {
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif; 
+    color: rgb(219, 217, 180);
+    font-size: 12px;
+    position: absolute;
+    bottom: 0;
+    line-height: 100%;
+    margin: 15px;
+}
+
+.gif-card img {
+    width: 215px;
+    max-height: 195px;
+    margin: 15px auto;
+    display: block;
+    border-radius: 6px;
+}
