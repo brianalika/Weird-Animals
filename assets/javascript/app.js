@@ -1,5 +1,5 @@
 var apiKey = "kXGGQUfiUFkoRamOkULORlLupHPzrA1L";
-var limit = 5;
+var limit = 4;
 var rating = "G";
 var queryURL = "https://api.giphy.com/v1/gifs/search"
 var animalsArray = ["Axolotl", "Chinchilla", "Colugo", "Mantis Shrimp", "Pangolin", "Quokka", "Red Panda", "Shoebill", "Sun Bear", "Tapir", "Tarsier", "Wombat" ];
